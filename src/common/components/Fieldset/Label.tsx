@@ -1,4 +1,4 @@
-interface Props extends React.HTMLAttributes<HTMLLabelElement> {}
+interface Props extends React.LabelHTMLAttributes<HTMLLabelElement> {}
 
 import styles from "./Label.module.css"
 export default function Label({children, className, ...props}: Props) {
